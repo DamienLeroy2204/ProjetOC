@@ -20,12 +20,13 @@ time.sleep(1)
 setRGB(255,255,255)
 
 while mdp_trouve == False:
-
+    
+    setCursor(0,1)
     setText_norefresh("****")
     
     while txtPos < 4 :
         
-        setCursor(txtPos,0)
+        setCursor(txtPos,1)
         
         while digitalRead(button_valid) == 0:
             
