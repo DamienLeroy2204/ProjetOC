@@ -21,7 +21,7 @@ setRGB(255,255,255)
 
 while mdp_trouve == False:
 
-    setText_norefresh("")
+    setText_norefresh("****")
     
     while txtPos < 4 :
         
