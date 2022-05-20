@@ -72,3 +72,4 @@ if mdp_trouve == True:
     setCursor(0,0)
     setRGB(0,255,0)
     setText_norefresh("Code Valide")
+    time.sleep(1)
